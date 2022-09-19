@@ -45,6 +45,26 @@ p {
   color: #272142;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: normal;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
@@ -67,6 +87,10 @@ p {
   padding: 120px 60px;
 }
 
+.headshot {
+  border-radius: 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -77,6 +101,12 @@ p {
   .hero {
     padding: 80px 20px;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
